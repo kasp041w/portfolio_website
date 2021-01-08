@@ -3,7 +3,11 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("sidenVises");
 
+    /*---- Lytter til om burgermenu bliver trykket på-------*/
     document.querySelector("#menuknap").addEventListener("click", toggleMenu)
+
+    /*----Meow lyd på billed------*/
+    document.querySelector("#villadsOgMig").addEventListener("mousedown", meow)
 
 }
 
@@ -23,5 +27,10 @@ function toggleMenu() {
 
     }
 
+}
 
+function meow() {
+    console.log("meow");
+    document.querySelector("#meow").volume = 0.5;
+    document.querySelector("#meow").play();
 }
