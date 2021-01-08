@@ -1,0 +1,29 @@
+#first_section {
+    height: 80vw;
+}
+
+#first_section .section_wrapper {
+    position: relative;
+    height: 82vw;
+    width: auto;
+}
+
+.bottomright {
+    position: absolute;
+    float: right;
+    bottom: -40px;
+    right: 0;
+}
+
+.topleft {}
+
+#second_section {
+    height: 250px;
+    width: auto;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second_section .section_wrapper {}
