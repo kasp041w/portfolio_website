@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="fealles.css">
 
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
     <link rel="icon" type="image/png" sizes="32x32" href="content/Facebook_logo_lille.png">
     <link rel="icon" type="image/png" sizes="16x16" href="content/instagram-logo_lille.png">
 </head>
@@ -16,22 +17,51 @@
 <body>
     <header>
         <nav>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="about.html">About</a>
-            <a href="index.html"><img src="content/LOGO.png" alt="logo"></a>
-            <a href="contact.html">Contact</a>
-            <a href="https://www.facebook.com/kasper.dyhl/" target="_blank"><img src="content/Facebook_logo_lille.png" alt="facebook"></a>
-            <a href="https://www.instagram.com/dyhllys/" target="_blank"><img src="content/instagram-logo_lille.png" alt="instagram"></a>
+            <a id="navlogo" href="index.html"><img src="content/LOGO.png" alt="logo"></a>
+            <div id="menuknap">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://www.facebook.com/kasper.dyhl/" target="_blank"><img src="content/Facebook_logo_lille.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/dyhllys/" target="_blank"><img src="content/instagram-logo_lille.png" alt="instagram"></a>
+                </li>
+            </ul>
         </nav>
     </header>
 
     <main>
+        <section id="first_section">
+            <div class="section_wrapper">
+                <h2>Portfolio</h2>
+            </div>
+        </section>
 
-        <h1>Hello Bitch</h1>
-
+        <section id="second_section">
+            <div class="section_wrapper">
+                <img src="content/Portfolie_02_tema.png" alt="portfolio_02">
+                <img src="content/Portfolie_03_tema.png" alt="portfolio_03">
+                <img src="content/Portfolie_04_tema.png" alt="portfolio_04">
+                <img src="content/Portfolie_05_tema.png" alt="portfolio_05">
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer id="footer">
+        <div class="section_wrapper">
+            <div class="col">
+                <h2>Kasper dyhl</h2>
+                <p>Mail: Dyhl.bm@gmail.com
+                    <br>Tlf: +45 40260041
+                </p>
+            </div>
+            <div class="col"><img src="content/Footer_logo.png" alt="footerlogo">
+            </div>
+            <div class="col">
+                <a href="https://www.facebook.com/kasper.dyhl/" target="_blank"><img src="content/Facebook_logo_stor.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/dyhllys/" target="_blank"><img src="content/instagram-logo_stort.png" alt="instagram"></a>
+            </div>
+        </div>
     </footer>
 
     <script src="java.js"></script>

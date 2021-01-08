@@ -1,0 +1,28 @@
+#first_section {
+    height: 150px;
+    width: auto;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#second_section .section_wrapper img {
+    display: grid;
+    margin-top: 50px;
+    filter: grayscale(100%);
+    transition: 0.4s;
+    opacity: 0.8;
+
+}
+
+#second_section .section_wrapper img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+
+}
