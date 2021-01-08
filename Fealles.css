@@ -107,15 +107,31 @@ nav #menu img:hover {
 
 #footer h2 {
     border-bottom: solid 2px white;
+    margin-top: 0;
 }
 
 #footer p {
     margin: 5px 0 5px 0;
 }
 
-#footer .col:nth-child(1) {}
+#footer .col:nth-child(1) {
+    width: 240px;
+}
 
-#footer .col:nth-child(3) {}
+#footer .col:nth-child(3) {
+    text-align: right;
+    /*
+    padding: 60px 0 0 0;
+*/
+    height: 122px;
+}
+
+#footer .col:nth-child(3) a img {
+    cursor: pointer;
+    width: 60px;
+    padding: 10px;
+
+}
 
 /*----------------------------TEXT---------------------------*/
 
@@ -239,12 +255,14 @@ p {
 
 
     #footer .section_wrapper {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         display: grid;
     }
 
     #footer .section_wrapper .col:nth-child(2) {
         display: grid;
+        justify-content: center;
+        padding-top: 20px;
     }
 
 }
