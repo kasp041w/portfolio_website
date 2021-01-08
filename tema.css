@@ -1,0 +1,83 @@
+#first_section img {
+    width: 6vw;
+    float: right;
+    padding: 10px;
+}
+
+#first_section {
+
+    height: 90px;
+}
+
+#second_section {
+    background-color: black;
+    list-style-type: armenian;
+}
+
+#second_section h1 {
+    margin: 10px 0 5px 0;
+}
+
+
+h2 {
+    border-bottom: solid 2px white;
+}
+
+section h4 {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+#second_section h4 {
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-top: 0;
+}
+
+.col_text {
+    padding-bottom: 50px;
+}
+
+a h4 {
+    color: deeppink;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tool_list {
+    font-family: 'Gothic A1', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+@media (min-width:1200px) {
+
+
+
+    #first_section img {
+        width: auto;
+
+    }
+}

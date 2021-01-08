@@ -1,6 +1,7 @@
 body {
     background-color: #262626;
-    background-image: url(content/forside_bagrund.png);
+    /*
+    background-image: url(content/forside_bagrund.png);*/
     /*
     background-repeat: no-repeat;*/
     background-size: 100%;
@@ -185,17 +186,6 @@ p {
     transform: translateX(-100%);
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
