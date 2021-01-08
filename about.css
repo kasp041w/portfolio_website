@@ -1,0 +1,43 @@
+#first_section {
+    height: 150px;
+    width: auto;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+
+#second_section {
+    margin: 0px 0 50px 0;
+}
+
+
+.col_text {
+    background-color: #262626;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.col_text h2 {
+    margin-top: 0px;
+    border-bottom: solid 2px white;
+}
+
+
+#third_section {
+    background-color: #262626;
+    padding-bottom: 75px;
+}
+
+#third_section .section_wrapper img {
+
+    display: grid;
+    margin-top: 50px;
+}
+
+
+
+
+
+@media (min-width:1200px) {}
