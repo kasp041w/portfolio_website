@@ -35,6 +35,11 @@ img {
     transform: translate(-50%, 0%);
 }
 
+#navlogo img {
+    width: 50vw;
+    max-width: 338px;
+}
+
 nav {}
 
 nav img {
@@ -178,6 +183,7 @@ p {
 
 /*------------------------------------------------------------------*/
 
+/*bliver ikke brugt pt..*/
 
 
 .hidden {
@@ -209,7 +215,7 @@ p {
 
 @media (min-width:600px) {
 
-    main {
+    /*    main {
         padding-top: 0px;
     }
 
@@ -240,17 +246,52 @@ p {
 
     }
 
-
+    .desktop_hide {
+        display: none;
+    }*/
 
 }
 
 
 
-
-
 @media (min-width:1200px) {
 
+    main {
+        padding-top: 0px;
+    }
 
+
+
+
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+        padding-right: 100px;
+        text-align: justify;
+    }
+
+    #menu {
+        transform-origin: top left;
+        position: inherit;
+        background-color: inherit;
+        border-bottom: solid 2px white;
+        padding: 50px 0px 50px 0px;
+        margin: auto 25px 0 25px;
+
+    }
+
+    .desktop_hide {
+        display: none;
+    }
 
     #footer .section_wrapper {
         grid-template-columns: 1fr 1fr 1fr;
