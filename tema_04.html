@@ -18,12 +18,16 @@
 <body>
     <header>
         <nav>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="about.html">About</a>
-            <a href="index.html"><img src="content/LOGO.png" alt="logo"></a>
-            <a href="contact.html">Contact</a>
-            <a href="https://www.facebook.com/kasper.dyhl/" target="_blank"><img src="content/Facebook_logo_lille.png" alt="facebook"></a>
-            <a href="https://www.instagram.com/dyhllys/" target="_blank"><img src="content/instagram-logo_lille.png" alt="instagram"></a>
+            <a id="navlogo" href="index.html"><img src="content/LOGO.png" alt="logo"></a>
+            <div id="menuknap">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://www.facebook.com/kasper.dyhl/" target="_blank"><img src="content/Facebook_logo_lille.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/dyhllys/" target="_blank"><img src="content/instagram-logo_lille.png" alt="instagram"></a>
+                </li>
+            </ul>
         </nav>
     </header>
 
@@ -38,45 +42,59 @@
         <section id="second_section">
             <div class="section_wrapper">
                 <div class="col">
-                    <h1>04</h1>
-                    <p>I dette tema er vi blevet introduceret til HTML og CSS, samt opbygning af grundstruktur med undersektioner og navigationmenu, med brug af layout diagrammer.Vi har haft fokus på designprocesser og dokumentationsformer i digital medieproduktion. Emner som: stilarter, layout, komposition, farvelære, typografi, idegenerering, moodboard og wireframe.
+                    <h1>04 – TEMA – Grundlæggende Animation</h1>
+                    <p>I dette tema har vi skulle kreere vores helt eget spil. I forbindelse med dette blev vi introduceret til programmeringssproget JavaScript og Adobe tegneprogrammet Illustrator. <br>Vi har skulle gå fra ide og koncept, til færdig kodet spil. Skitser er blevet rentegnet i Illustrator og tegningerne har med JavaScript fået CSS-Animationer. <br>Principperne fra kodningen danner grundlag til hvordan man kan lave avancerede, kreative og interaktive webløsning til fremtidige websites. <br>Temaet har været en blanding af design og programmering.
                     </p>
                 </div>
                 <div class="col">
                     <h4>Focus / værktøjer /roller</h4>
                     <ul class="tool_list">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Mobile First</li>
-                        <li>Grid-Layout</li>
-                        <li>Komposition</li>
-                        <li>Layout</li>
-                        <li>Farver</li>
-                        <li>Fonte</li>
+                        <li>Aktivitetsdiagram</li>
+                        <li>Statemachinediagram </li>
+                        <li>Koncept og ide</li>
+                        <li>UI-elementer </li>
+                        <li>Figurelementer</li>
+                        <li>Baggrundsdesign</li>
+                        <li>Kompositionsteknikker</li>
+                        <li>Adobe Illustrator</li>
+                        <li>JavaScript, HTML og CSS.</li>
+                        <li>Adobe Audition</li>
                     </ul>
 
                 </div>
             </div>
         </section>
         <section id="third_section">
+            <div class="afsnit_streg"></div>
+            <h2>04.01.05 – Assetliste og designdokumentation</h2>
             <div class="section_wrapper">
                 <div class="col_text">
                     <h4>Opgave</h4>
-                    <p></p>
+                    <p>Opgaven gik ud på at lave en komplet Assetliste over samtlige elementer i mit spil. Og gå fra skitse, moodboard, stiletyle til rentegning. <br>Jeg valgte Stil-koncept: Jul, kabaret, ’’traditionel’’ hyggelig julefrokost hvor alt kan ske. <br>I min stilart var jeg inspireret at DR.dk Pakkelegs spil, samt 00’er spillet Club-Pinguin. <br>Jeg skaber lys/mørke kontrast i billedet, ved at have mørkere farver i forgrunden, mens baggrunden holdes lys. Jeg bruger Bløde former og varme farver, for at holde det hyggeligt, trykt og julestueagtigt. For at forgrunden på mit spil skulle blive spændende, bruger jeg monokromatiske farver(på tæppet). <br>Alt er rentegnet i Illustrator ud fra håndtegnet skitser.</p>
                     <h4>Produkt</h4>
-                    <p></p>
+                    <a href="http://kasperdyhl.dk/kea/04_animation/Spil/assets.html" target="_blank">
+                        <h4>Link til asset site</h4>
+                    </a>
                 </div>
-                <div class="col_img"></div>
+                <div class="col_img"><img src="content/04.01.01_assetbilleder.svg" alt="assetbilled"></div>
             </div>
         </section>
         <section id="fourth_section">
+            <div class="afsnit_streg"></div>
+            <h2>04.05.01 – Individuelt spil</h2>
             <div class="section_wrapper">
-                <div class="col_img"></div>
+                <div class="col_img"><img src="content/Startskaerm@0.75x.png" alt="SpilBilled"><img src="content/Aktivitets_diagram.jpg" alt="aktivitetsDiagram"><img src="content/Statemachine_diagram.jpg" alt="statemachineDiagram"></div>
                 <div class="col_text">
                     <h4>Opgave</h4>
-                    <p></p>
+                    <p>Opgaven gik ud på at færdiggøre vores eget spil med HTML, CSS og JavaScript. <br>Vi benyttede statemachinediagram og aktivitetsdiagram, for at specificere spillet og for at gøre kodningsprocessen nemmere og overskuelig. <br>Spillet blev rettet til, ved hjælp af indsigter fra brugertests, der gjorde mig klogere på spillets brugervenlighed. </p>
                     <h4>Produkt</h4>
-                    <p></p>
+                    <p>Produktet blev et velfungerende julespil. Spillet går ud på, at du skal skodde/ramme pingvinerne, der kommer flyvende. Rammer man nisserne, mister man point. Rammer man øllerne, stiger ens promille og spillet speeder op. Har man ramt 10 pingviner eller flere, inden cigaretten er røget færdig, har man vundet.</p>
+                    <a href="http://kasperdyhl.dk/kea/04_animation/Spil_v1/index.html" target="_blank">
+                        <h4>Link til spil!</h4>
+                    </a>
+                    <a href="" target="_blank">
+                        <h4>Her skal være link til dokumentation!!!!!!!!!</h4>
+                    </a>
                 </div>
             </div>
         </section>
