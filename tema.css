@@ -73,10 +73,14 @@ a h4 {
 
 
 
-
 @media (min-width:600px) {}
 
 @media (min-width:800px) {
+    section {
+        padding-right: 10vw;
+        padding-left: 10vw;
+    }
+
     #second_section .section_wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -87,6 +91,8 @@ a h4 {
         margin-right: 20px;
         padding-right: 20px
     }
+
+
 }
 
 

@@ -1,17 +1,48 @@
 .skod_pingvin {
     position: relative;
     overflow: hidden;
-    padding-top: 56.25%;
+    padding-top: 66.25%;
 }
 
 .skod_pingvin_frame {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -1px;
     width: 100%;
     height: 100%;
 }
 
-iframe body {
-    margin: 0;
+
+@media (min-width:800px) {
+
+    section img {
+        padding-top: 0;
+    }
+
+    #third_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 10fr 10fr;
+        grid-column-gap: 2vw;
+    }
+
+    #fourth_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 10fr 12fr;
+        grid-column-gap: 4vw;
+    }
+
+    #fourth_section .section_wrapper .col_img {}
+
+
+    .overskrift_left {
+        max-width: 48%;
+    }
+
+    .overskrift_right {
+        max-width: 100%;
+        margin-left: 48%;
+    }
+
+
+
 }
