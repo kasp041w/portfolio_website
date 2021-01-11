@@ -62,13 +62,6 @@ a h4 {
 
 
 
-
-
-
-
-
-
-
 .tool_list {
     font-family: 'Gothic A1', sans-serif;
     color: white;
@@ -78,6 +71,23 @@ a h4 {
     margin-top: 10px;
 }
 
+
+
+
+@media (min-width:600px) {}
+
+@media (min-width:800px) {
+    #second_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #second_section .section_wrapper .col:nth-child(1) {
+        border-right: solid 2px white;
+        margin-right: 20px;
+        padding-right: 20px
+    }
+}
 
 
 
