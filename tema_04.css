@@ -12,6 +12,10 @@
     height: 100%;
 }
 
+iframe {
+    width: 330px;
+    height: 157px;
+}
 
 @media (min-width:800px) {
 
