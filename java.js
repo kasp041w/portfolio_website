@@ -4,10 +4,10 @@ function sidenVises() {
     console.log("sidenVises");
 
     /*---- Lytter til om burgermenu bliver trykket på-------*/
-    document.querySelector("#menuknap").addEventListener("click", toggleMenu)
+    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 
     /*----Meow lyd på billed------*/
-    document.querySelector("#villadsOgMig").addEventListener("mousedown", meow)
+    document.querySelector("#villadsOgMig").addEventListener("mousedown", meow);
 
 }
 

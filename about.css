@@ -38,7 +38,6 @@ body {
 }
 
 #third_section .section_wrapper img {
-    display: grid;
     margin-top: 50px;
 }
 
@@ -65,7 +64,7 @@ body {
         column-gap: 4vw;
     }
 
-    #second_section .section_wrapper img {
+    #second_section .section_wrapper .col_img img {
         margin-top: 60px;
         margin-bottom: 50px;
         width: auto;
@@ -74,8 +73,9 @@ body {
     }
 
     #second_section .section_wrapper .col_img {
-        display: flex;
         overflow: hidden;
+        cursor: pointer;
+
     }
 }
 
