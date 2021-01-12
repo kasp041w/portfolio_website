@@ -93,6 +93,7 @@ body {
     opacity: 0.8;
     padding-top: 50px;
     margin-bottom: 100px;
+    cursor: pointer;
 }
 
 #third_section .section_wrapper img:hover {
@@ -130,11 +131,32 @@ body {
 #fifth_section .section_wrapper img:hover {
     filter: grayscale(0);
     opacity: 1;
+}
+
+.portfolio_billed {
+    overflow: hidden;
+    position: relative;
 
 }
 
+.text_block {
+    position: absolute;
+    background-color: rgba(137, 0, 90, 0.67);
+    text-align: center;
+    padding: 0 8px 0 8px;
+    right: 0;
+    left: 0;
+    bottom: -10vw;
+    transition: 0.4s;
+    opacity: 0;
+}
 
+.portfolio_billed:hover .text_block {
+    bottom: 0px;
+    pointer-events: none;
+    opacity: 1;
 
+}
 
 @media (min-width:600px) {
 

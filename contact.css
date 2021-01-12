@@ -27,6 +27,7 @@ a {
 
     #first_section .section_wrapper .col img {
         margin-top: -98px;
+        filter: grayscale(0.2);
     }
 
     h1 {
