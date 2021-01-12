@@ -1,3 +1,7 @@
+#fourth_section .section_wrapper .col_img video {
+    width: 100%;
+}
+
 @media (min-width:1200px) {
 
     section img {
@@ -6,8 +10,8 @@
 
     #third_section .section_wrapper {
         display: grid;
-        grid-template-columns: 10fr 10fr;
-        grid-column-gap: 2vw;
+        grid-template-columns: 10fr 12fr;
+        grid-column-gap: 4vw;
     }
 
     #fourth_section .section_wrapper {
@@ -15,11 +19,6 @@
         grid-template-columns: 10fr 12fr;
         grid-column-gap: 4vw;
     }
-
-    #fourth_section .section_wrapper .col_img video {
-        width: 100%;
-    }
-
 
     .overskrift_left {
         max-width: 48%;

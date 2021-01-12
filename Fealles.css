@@ -49,17 +49,28 @@ img {
     height: auto;
 }
 
+a {
+    color: #ffadf2;
+}
+
 #navlogo {
     position: absolute;
     top: 5px;
     left: 50%;
     transform: translate(-50%, 0%);
     z-index: 1;
+    transform-origin: center;
+
+}
+
+#navlogo img:hover {
+    transform: scale(1.15);
 }
 
 #navlogo img {
     width: 50vw;
     max-width: 338px;
+    transition: 0.4s;
 }
 
 nav {}
@@ -227,18 +238,6 @@ br {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*-------------------------MEDIA-------------------------------*/
 
 @media (min-width:600px) {
@@ -250,41 +249,6 @@ br {
         padding-right: 6vw;
         padding-left: 6vw;
     }
-
-    /*    main {
-        padding-top: 0px;
-    }
-
-
-
-
-
-    #menuknap {
-        display: none;
-    }
-
-    #menu.hidden {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    #menu li {
-        display: inline-block;
-    }
-
-    #menu {
-        transform-origin: top left;
-        position: inherit;
-        background-color: inherit;
-        border-bottom: solid 2px white;
-        padding: 50px 0px 50px 0px;
-        margin: auto 25px 0 25px;
-
-    }
-
-    .desktop_hide {
-        display: none;
-    }*/
 
 }
 
@@ -312,10 +276,6 @@ br {
         opacity: 1;
     }
 
-    #menu li a {}
-
-    #menu li {}
-
     #menu {
         transform-origin: top left;
         position: inherit;
@@ -326,6 +286,7 @@ br {
         display: grid;
         grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
         text-align: center;
+        transition: 0s;
     }
 
     .menu_mellemrum {

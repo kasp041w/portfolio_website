@@ -70,6 +70,7 @@ body {
         margin-bottom: 50px;
         width: auto;
         height: auto;
+        filter: opacity(0.8);
     }
 
     #second_section .section_wrapper .col_img {

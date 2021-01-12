@@ -17,6 +17,7 @@
          margin-top: 35px;
          display: grid;
          grid-template-rows: 1fr 1fr;
+         filter: grayscale(0.5);
      }
 
      #fourth_section .section_wrapper {
@@ -45,3 +46,5 @@
          margin-left: 49%;
      }
  }
+
+ @media (min-width:1200px) {}
