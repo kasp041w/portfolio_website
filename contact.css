@@ -1,0 +1,29 @@
+h1 {
+    margin-bottom: 0;
+    border-bottom: solid 2px white;
+}
+
+h3 {
+    margin-top: 100px;
+    margin-bottom: 0;
+    border-bottom: solid 2px white;
+
+}
+
+
+#first_section .section_wrapper .col img {
+    margin-top: -98px;
+}
+
+@media (min-width:800px) {
+    #first_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5vw;
+    }
+
+    h1 {
+
+        width: 65%
+    }
+}

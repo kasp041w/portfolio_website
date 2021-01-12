@@ -16,7 +16,9 @@
         grid-column-gap: 4vw;
     }
 
-    #fourth_section .section_wrapper .col_img {}
+    #fourth_section .section_wrapper .col_img video {
+        width: 100%;
+    }
 
 
     .overskrift_left {

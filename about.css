@@ -1,3 +1,10 @@
+body {
+    background-image: url(content/Portfolie_baggrund2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 #first_section {
     height: 150px;
     width: auto;

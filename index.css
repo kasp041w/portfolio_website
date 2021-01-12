@@ -1,4 +1,59 @@
-#baggrund {}
+body {
+    background-image: url(content/forside_bagrund.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/** {
+
+    box-sizing: border-box;
+}
+
+.parallax {
+    perspective: 100px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 0;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -3;
+}
+
+.parallax__layer img {
+    display: block;
+    position: absolute;
+    top: 0px;
+    height: auto;
+    overflow-y: hidden;
+}
+
+.parallax__cover {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.parallax__layer__0 {
+    transform: translateZ(-100px) scale(2);
+}*/
+
 
 #first_section {
     height: 80vw;
@@ -42,6 +97,8 @@
 
 #third_section .section_wrapper img:hover {
     filter: grayscale(0);
+    opacity: 1;
+
 }
 
 
