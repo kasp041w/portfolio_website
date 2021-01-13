@@ -88,9 +88,9 @@ body {
 }
 
 #third_section .pynt {
-    width: 235px;
-    height: 65px;
-    margin-top: 15px;
+    width: 240px;
+    height: auto;
+    margin-top: 7px;
     position: absolute;
 }
 
@@ -133,10 +133,11 @@ body {
 }
 
 #fifth_section .pynt {
-    width: 160px;
-    height: 65px;
-    margin-top: 15px;
+    width: 170px;
+    height: auto;
+    margin-top: 22px;
     position: absolute;
+
 }
 
 #fifth_section .section_wrapper img {
