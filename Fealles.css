@@ -97,15 +97,9 @@ nav img {
     transform-origin: top left;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.99);
-    /*
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.95) 80%, rgba(38, 38, 38, 0) 100%);
-*/
     color: white;
     padding: 50px 120px 500px 100px;
     margin: auto;
-    /*    border-bottom: solid 1px white;
-    border-right: solid 1px white;*/
-    transition: 0.3s;
     z-index: 10;
 
 }
